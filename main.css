@@ -1,0 +1,44 @@
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.NavigationBar
+{
+    list-style-type: none;
+    position: fixed;
+    height: auto;
+    width: inherit;
+    background-color: black;
+}
+
+.navigationlist
+{
+    margin: auto;
+}
+.NavigationBar ul
+{
+
+}
+
+.NavigationBar ul li
+{
+    list-style: none;
+    font-family: Arial;
+    display: inline-block;
+    padding-right: 20pt;
+    padding-left: 20pt;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    color: whitesmoke;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 0 0 rgba(255, 255, 255, 0.11);
+}
+
+.NavigationBar ul li :hover
+{
+    background-color: whitesmoke;
+    color: black;
+}
+
