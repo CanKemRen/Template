@@ -8,25 +8,29 @@ html{
     background-color: whitesmoke;
 }
 
-
 .NavigationBar{
-    border-bottom: solid;
+    display: block;
+    overflow: auto;
 }
 
 .NavigationBar ul, .NavigationBar ul li a{
     padding: 30pt;
     margin: 0;
-    border-bottom: solid;
+    bottom: 0pt;
 }
 
-#logo1{
-    float: left;
+.clear{
+    content: "";
+    display: table;
+    clear: both;
 }
+
 .navigationlist{
     float: right;
 }
 .NavigationBar ul li {
-    display: inline-block;
+    float: left;
+    list-style:none;
     alignment: right;
     text-decoration: none;
 }
@@ -36,8 +40,24 @@ html{
     text-decoration: none;
     color:black ;
     margin: auto;
+    font-family: Arial;
 }
 
 .NavigationBar ul li a:hover{
     color: chocolate;  /*musst du selber entscheiden, je nachdem wie das Logo aussehen wird würde ich dann auch die Farbe im allgemeinen nochmal beschprechen */
+}
+
+
+#logo1{
+    float: left;
+    height: inherit;
+}
+
+#logo1 img{
+    height: 75pt;
+    width: 140pt;
+}
+
+.Home{
+    background-color: chocolate;
 }
