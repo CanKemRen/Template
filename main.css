@@ -4,51 +4,40 @@ body
     width: 100%;
     margin: 0;
 }
-
-div
-{
-
-}
-.NavigationBar
-{
-    list-style-type: none;
-    position: fixed;
-    width: inherit;
-    height: auto;
-    top:0pt;
-    background-color: black;
+html{
+    background-color: whitesmoke;
 }
 
-.navigationlist
-{
 
+.NavigationBar{
+    border-bottom: solid;
+}
+
+.NavigationBar ul, .NavigationBar ul li a{
+    padding: 30pt;
+    margin: 0;
+    border-bottom: solid;
+}
+
+#logo1{
+    float: left;
+}
+.navigationlist{
+    float: right;
+}
+.NavigationBar ul li {
+    display: inline-block;
+    alignment: right;
+    text-decoration: none;
+}
+
+
+.NavigationBar ul li a{
+    text-decoration: none;
+    color:black ;
     margin: auto;
 }
 
-.NavigationBar ul
-{
-
-}
-.NavigationBar ul li
-{
-
-    padding:20pt;
-    list-style: none;
-    font-family: Arial;
-    display: inline-block;
-    color: whitesmoke;
-
-}
-
-.NavigationBar ul :hover
-{
-    background-color: whitesmoke;
-    color: black;
-}
-
-.Home
-{
-
-    height: inherit;
-    width: 100%;
+.NavigationBar ul li a:hover{
+    color: chocolate;  /*musst du selber entscheiden, je nachdem wie das Logo aussehen wird würde ich dann auch die Farbe im allgemeinen nochmal beschprechen */
 }
