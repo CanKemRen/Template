@@ -54,10 +54,23 @@ html{
 }
 
 #logo1 img{
-    height: 75pt;
+    height: 71pt;
     width: 140pt;
 }
 
-.Home{
+.gap{
     background-color: chocolate;
+    height: 5pt;
+}
+
+.Home{
+    height: 530px;
+    background: url("img/shutterstock_192605060_GRAFIK-4846_WDE_strand_meer_palmen_20170215_DAM.jpg") rgba(1,1,1,0.6);
+    background-size: 100% 100%;
+    color: transparent;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: aqua;
 }
