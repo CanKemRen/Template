@@ -4,6 +4,8 @@ body
     width: 100%;
     margin: 0;
 }
+
+
 html{
     background-color: whitesmoke;
 }
@@ -63,35 +65,67 @@ html{
     height: 5pt;
 }
 
-.Home{
+.Home1{
     height: 530px;
     background: url("img/shutterstock_192605060_GRAFIK-4846_WDE_strand_meer_palmen_20170215_DAM.jpg") rgba(1,1,1,0.6);
     background-size: 100% 100%;
     color: transparent;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .HomeGallery {
-    height: 530px;
+    height: auto;
     background: url("img/shutterstock_192605060_GRAFIK-4846_WDE_strand_meer_palmen_20170215_DAM.jpg") rgba(1,1,1,0.6);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 footer{
-    background-color: aqua;
+    background-color: whitesmoke;
+    height: 90px;
 }
 
 .Willkommen{
     width: 100%;
-    height: 40;
+    height: auto;
     top: 45%;
     margin: 0 auto;
     position: relative;
-    background-color: rgba(137, 137, 137, 0.4);
+    background-color: rgba(100, 100, 100, 0.7);
 }
 
+
+
 h1{
-    padding: 15pt;
+    padding: 10pt;
     margin: 0 auto;
     text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+}
+
+.columns{
+    margin:0pt;
+    padding: auto;
+    overflow: hidden;
+    text-align: center;
+    width: inherit;
+}
+
+.columns li{
+    text-align: center;
+    float: left;
+    border: solid;
+    height: 200pt;
+    width: 400pt;
+    margin:30pt;
+    list-style: none;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+#columnalign{
+    align-content: center;
 }
