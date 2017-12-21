@@ -4,7 +4,8 @@ body
     width: 100%;
     margin: 0;
 }
-@font-face { font-family: Knight Brush Demo; src: url('font/Knight Brush Demo.otf'); }
+
+
 html{
     background-color: whitesmoke;
 }
@@ -64,45 +65,67 @@ html{
     height: 5pt;
 }
 
-.Home{
+.Home1{
     height: 530px;
     background: url("img/shutterstock_192605060_GRAFIK-4846_WDE_strand_meer_palmen_20170215_DAM.jpg") rgba(1,1,1,0.6);
     background-size: 100% 100%;
     color: transparent;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-.HomeGallery{
-    height: 530px;
+.HomeGallery {
+    height: auto;
     background: url("img/shutterstock_192605060_GRAFIK-4846_WDE_strand_meer_palmen_20170215_DAM.jpg") rgba(1,1,1,0.6);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 footer{
-    background-color: black;
-    height: 60px;
+    background-color: whitesmoke;
+    height: 90px;
 }
 
 .Willkommen{
-    top: 43%;
+    width: 100%;
+    height: auto;
+    top: 45%;
     margin: 0 auto;
     position: relative;
+    background-color: rgba(100, 100, 100, 0.7);
 }
+
+
 
 h1{
-    padding: 15pt;
+    padding: 10pt;
     margin: 0 auto;
     text-align: center;
-    font-family: "Knight Brush Demo";
-    font-size: 60px;
+    font-family: Arial;
+    font-size: 40px;
 }
 
-.content{
+.columns{
+    margin:0pt;
+    padding: auto;
+    overflow: hidden;
     text-align: center;
-    font-family: Arial;
-    font-size: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 200px;
-    padding-left: 200px;
+    width: inherit;
+}
+
+.columns li{
+    text-align: center;
+    float: left;
+    border: solid;
+    height: 200pt;
+    width: 400pt;
+    margin:30pt;
+    list-style: none;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+#columnalign{
+    align-content: center;
 }
