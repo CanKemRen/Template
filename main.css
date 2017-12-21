@@ -72,6 +72,7 @@ html{
     color: transparent;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 .HomeGallery {
     height: auto;
@@ -107,31 +108,30 @@ h1{
 
 .columns{
     margin:0pt;
-    padding: auto;
     padding-left: 50px;
     overflow: hidden;
     text-align: center;
-    width: inherit;
 }
 
 .columns li{
     text-align: center;
     float: left;
+    display: inline;
     border: solid;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
     height: 200pt;
-    width: 400pt;
+    width: 40%;
     margin:30pt;
     list-style: none;
     background-color: black;
     color: whitesmoke;
-
 }
 
 #columnalign{
     align-content: center;
+    display: inline-block;
 }
 
 .content{
@@ -142,4 +142,8 @@ h1{
     padding-bottom: 50px;
     padding-right: 200px;
     padding-left: 200px;
+}
+
+.canvas{
+    height:400pt;
 }
