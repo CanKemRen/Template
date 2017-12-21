@@ -108,6 +108,7 @@ h1{
 .columns{
     margin:0pt;
     padding: auto;
+    padding-left: 50px;
     overflow: hidden;
     text-align: center;
     width: inherit;
@@ -117,6 +118,9 @@ h1{
     text-align: center;
     float: left;
     border: solid;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
     height: 200pt;
     width: 400pt;
     margin:30pt;
@@ -128,4 +132,14 @@ h1{
 
 #columnalign{
     align-content: center;
+}
+
+.content{
+    text-align: center;
+    font-family:Arial;
+    font-size:20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
 }
