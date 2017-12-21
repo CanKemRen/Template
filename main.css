@@ -4,6 +4,7 @@ body
     width: 100%;
     margin: 0;
 }
+@font-face { font-family: Knight Brush Demo; src: url('font/Knight Brush Demo.otf'); }
 html{
     background-color: whitesmoke;
 }
@@ -70,7 +71,7 @@ html{
     color: transparent;
     background-repeat: no-repeat;
 }
-.HomeGallery {
+.HomeGallery{
     height: 530px;
     background: url("img/shutterstock_192605060_GRAFIK-4846_WDE_strand_meer_palmen_20170215_DAM.jpg") rgba(1,1,1,0.6);
     background-size: 100% 100%;
@@ -78,20 +79,30 @@ html{
     background-attachment: fixed;
 }
 footer{
-    background-color: aqua;
+    background-color: black;
+    height: 60px;
 }
 
 .Willkommen{
-    width: 100%;
-    height: 40;
-    top: 45%;
+    top: 43%;
     margin: 0 auto;
     position: relative;
-    background-color: rgba(137, 137, 137, 0.4);
 }
 
 h1{
     padding: 15pt;
     margin: 0 auto;
     text-align: center;
+    font-family: "Knight Brush Demo";
+    font-size: 60px;
+}
+
+.content{
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
 }
