@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layout" lang="en">
+
 <head>
-    <link rel="stylesheet" href="main.css" type="text/css">
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Family Apartments for Holiday</title>
 </head>
 <body>
+
+<div th:class="uk-grid">
+    <h1 th:text="#{apartment.rental.title}" class="uk-width-1-1">Family Apartments for Holiday</h1>
+
 <div class="NavigationBar">
     <div id="logo1">
-        <img src="img/logo-logo-schwarz-100~760x340.png">
+        <img src="img/logo-logo-schwarz-100~760x340.png"/>
     </div>
         <ul class="navigationlist">
             <li><a type="button" href="#">Home</a></li>
@@ -19,12 +24,10 @@
             <li><a type="button" href="#">Us</a></li>
         </ul>
 </div>
-<br class="clear">
+</div>
+    <br class="clear"/>
 <div class="gap"></div>
 <div class="Home1">
-    <!--    <div class="Willkommen">
-            <h1>Willkommen</h1>
-        </div>-->
 </div>
 
 <div class="gap"></div>
