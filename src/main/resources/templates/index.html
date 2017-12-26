@@ -1,7 +1,8 @@
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
 
 <head>
-    <link rel="stylesheet" href="main.css" type="text/css"/>
+
+    <link th:href="@{/css/main.css}" rel="stylesheet" type="text/css"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>Family Apartments for Holiday</title>
 </head>
@@ -12,7 +13,7 @@
 
     <div class="NavigationBar">
         <div id="logo1">
-            <img src="templates/img/logo-logo-schwarz-100~760x340.png"/>
+            <img th:src="@{/img/logo-logo-schwarz-100-760x340.png}"/>
         </div>
         <ul class="navigationlist">
             <li><a type="button" th:href="@{/home}">Home</a></li>

@@ -67,7 +67,7 @@ html{
 
 .Home1{
     height: 450px;
-    background: url("img/shutterstock_192605060_GRAFIK-4846_WDE_strand_meer_palmen_20170215_DAM.jpg") rgba(1,1,1,0.6);
+    background: url("../../../img/shutterstock_192605060_GRAFIK-4846_WDE_strand_meer_palmen_20170215_DAM.jpg") rgba(1,1,1,0.6);
     background-size: 100% 100%;
     color: transparent;
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@ html{
 }
 .HomeGallery {
     height: auto;
-    background: url("img/shutterstock_192605060_GRAFIK-4846_WDE_strand_meer_palmen_20170215_DAM.jpg") rgba(1,1,1,0.6);
+    background: url("../../../img/shutterstock_192605060_GRAFIK-4846_WDE_strand_meer_palmen_20170215_DAM.jpg") rgba(1,1,1,0.6);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
