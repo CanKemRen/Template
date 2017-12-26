@@ -1,0 +1,24 @@
+{
+  "name": "apartment-rental",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp sass",
+    "watch": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.eu-central-1.amazonaws.com/v1/repos/apartment-rental"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
