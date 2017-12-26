@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layout" lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 
 <head>
     <link rel="stylesheet" href="main.css" type="text/css"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>Family Apartments for Holiday</title>
 </head>
 <body>
@@ -11,38 +10,45 @@
 <div th:class="uk-grid">
     <h1 th:text="#{apartment.rental.title}" class="uk-width-1-1">Family Apartments for Holiday</h1>
 
-<div class="NavigationBar">
-    <div id="logo1">
-        <img src="img/logo-logo-schwarz-100~760x340.png"/>
-    </div>
+    <div class="NavigationBar">
+        <div id="logo1">
+            <img src="templates/img/logo-logo-schwarz-100~760x340.png"/>
+        </div>
         <ul class="navigationlist">
-            <li><a type="button" href="#">Home</a></li>
-            <li><a type="button" href="#">Gallery</a></li>
-            <li><a type="button" href="#">Animation</a></li>
-            <li><a type="button" href="#">Price</a></li>
-            <li><a type="button" href="#">Contact</a></li>
-            <li><a type="button" href="#">Us</a></li>
+            <li><a type="button" th:href="@{/home}">Home</a></li>
+            <li><a type="button" th:href="@{/gallery}">Gallery</a></li>
+            <li><a type="button" th:href="@{/animation}">Animation</a></li>
+            <li><a type="button" th:href="@{/price}">Price</a></li>
+            <li><a type="button" th:href="@{/contact}">Contact</a></li>
+            <li><a type="button" th:href="@{/us}">Us</a></li>
         </ul>
+    </div>
 </div>
-</div>
-    <br class="clear"/>
+<br class="clear"/>
 <div class="gap"></div>
 <div class="Home1">
 </div>
 
 <div class="gap"></div>
 <div class="content">
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-    sed diam nonumy eirmod tempor invidunt ut labore et dolore
-    magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-    et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-    sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-    dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    <span th:text="#{apartment.rental.address}"/><br/>
+    <span th:text="#{apartment.rental.cost.list.year}"/><br/>
+    <span th:text="#{apartment.rental.monthly.winter.cost}"/><br/>
+    <span th:text="#{apartment.rental.monthly.summer.cost}"/><br/>
+    <span th:text="#{apartment.rental.monthly.text}"/><br/>
+    <span th:text="#{apartment.rental.payment.for.billing.special.offer}"/><br/>
+    <span th:text="#{apartment.rental.breakfast.text}"/><br/>
+    <span th:text="#{apartment.rental.beach.distance.text}"/><br/>
+    <span th:text="#{apartment.rental.room.info}"/><br/>
+    <span th:text="#{apartment.rental.kitchen.info}"/><br/>
+    <span th:text="#{apartment.rental.airport.transport}"/><br/>
+    <span th:text="#{apartment.rental.sending.photo.text}"/><br/>
+    <span th:text="#{apartment.rental.whatsapp.contact}"/><br/>
+
 </div>
 <div class="gap"></div>
+
+
 <footer>
 
 </footer>

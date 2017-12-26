@@ -1,30 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layout" lang="en">
+<th:block th:fragment="jobProfileList">
+
 <head>
     <link rel="stylesheet" href="main.css" type="text/css"/>
     <meta charset="UTF-8"/>
     <title>Title</title>
 </head>
 <body>
-<div class="NavigationBar">
-    <ul class="navigationlist">
-        <li><a type="button">Home</a></li>
-        <li><a type="button">Galary</a></li>
-        <li><a type="button">Animation</a></li>
-        <li><a type="button">Price</a></li>
-        <li><a type="button">Kontakt</a></li>
-        <li><a type="button">Über Uns</a></li>
-    </ul>
-</div>
-<div class="Home">
+<div th:class="uk-grid">
+    <h1 th:text="#{apartment.rental.title}" class="uk-width-1-1">Family Apartments for Holiday</h1>
 
-Test Text
-
+    <div class="NavigationBar">
+        <div id="logo1">
+            <img src="img/logo-logo-schwarz-100~760x340.png"/>
+        </div>
+        <ul class="navigationlist">
+            <li><a type="button" href="#">Home</a></li>
+            <li><a type="button" href="#">Gallery</a></li>
+            <li><a type="button" href="#">Animation</a></li>
+            <li><a type="button" href="#">Price</a></li>
+            <li><a type="button" href="#">Contact</a></li>
+            <li><a type="button" href="#">Us</a></li>
+        </ul>
+    </div>
 </div>
-<div class="Galary">
-
+<br class="clear"/>
+<div class="gap"></div>
+<div class="Home1">
 </div>
+
+<div class="gap"></div>
+<div class="content">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+    sed diam nonumy eirmod tempor invidunt ut labore et dolore
+    magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+    et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+    sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+    dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</div>
+<div class="gap"></div>
 
 
 </body>
+</th:block>
 </html>
