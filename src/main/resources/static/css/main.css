@@ -71,7 +71,7 @@ html{
     background-size: 100% 100%;
     color: transparent;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: inherit;
 
 }
 .HomeGallery {
@@ -146,4 +146,15 @@ h1{
 
 .canvas{
     height:400pt;
+}
+
+.language{
+    list-style: none;
+    display: block;
+}
+.language a{
+    padding-right: 5px;
+}
+#language ul li img{
+    float: right;
 }
